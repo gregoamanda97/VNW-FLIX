@@ -1,9 +1,10 @@
+@charset "UTF-8";
 header {
-  background-color: rgb(248, 139, 157);
+  background-color: rgb(248, 58, 93);
 }
 
 body {
-  background-color: pink;
+  background-color: rgb(247, 207, 216);
 }
 
 * {
@@ -19,9 +20,171 @@ img {
 .card {
   background-color: rgb(248, 58, 90);
   border: 5px solid white;
+  border-radius: 10px;
   opacity: 0.9;
+  width: 25vw;
+  height: 87vh;
+}
+.card h2 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  padding: 5px;
+}
+
+button {
+  width: 30%;
+  padding: 4px 10px;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 0.6rem;
+  font-family: "Verdana", sans-serif;
+  position: relative;
+  top: -2%; /* Centraliza verticalmente */
+  left: 57%; /* Centraliza horizontalmente */
+  transform: translate(-75%, -4%);
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 7px;
+  border-radius: 8px;
+  text-align: center;
 }
 
 #bt1 {
-  background-color: white;
+  background: rgb(247, 181, 232);
+}
+
+#bt2 {
+  background: rgb(247, 181, 232);
+}
+
+h2 {
+  color: rgb(253, 195, 204);
+  font-size: 1.5rem;
+  font-family: "Verdana", sans-serif;
+}
+
+.title {
+  font-size: 6rem;
+  color: #ebebeb;
+  font-family: "Impact", fantasy;
+  text-align: center;
+}
+
+/* Estilo para os itens da lista */
+ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.card1 {
+  background-color: rgb(248, 58, 90);
+  border: 6px solid white;
+  border-radius: 10px;
+  opacity: 0.9;
+  width: 23vw;
+  height: 80h;
+}
+
+div {
+  display: inline-block;
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  position: relative;
+  top: 10%; /* Centraliza verticalmente */
+  left: 43%; /* Centraliza horizontalmente */
+  transform: translate(-150%, -0.1%);
+}
+
+a {
+  display: inline-block;
+  background-color: rgb(243, 145, 174);
+  width: 77px;
+  height: 45px;
+  margin: 10px;
+  font-size: 1.5rem;
+  font-family: "Impact", fantasy;
+  padding: 8px 7px;
+  position: relative;
+  top: 10%; /* Centraliza verticalmente */
+  left: 43%; /* Centraliza horizontalmente */
+  transform: translate(-75%, -4%);
+  color: white;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.card img, .card1 img {
+  width: 100%;
+  aspect-ratio: 2/3; /* mantém proporção de pôster */
+  -o-object-fit: cover;
+     object-fit: cover; /* corta sem distorcer */
+  border-radius: 8px;
+  display: block;
+}
+
+.card1 {
+  background-color: rgb(248, 58, 90);
+  border: 5px solid white;
+  border-radius: 10px;
+  opacity: 0.9;
+  width: 25vw;
+  height: 87vh;
+}
+.card1 h2 {
+  text-align: center;
+}
+
+.card h2, .card1 h2 {
+  color: #ffd3db;
+  font-size: 1rem;
+  text-align: center;
+  min-height: 2.4em; /* evita “pulo” quando o título quebra linha */
+}
+
+footer {
+  background-color: #f9415e; /* cor de fundo */
+  color: white; /* cor do texto */
+  text-align: center; /* centralizar o conteúdo */
+  padding: 30px; /* espaço interno */
+  margin-top: 50px; /* espaço acima do footer */
+  font-size: 1rem;
+  font-family: "Impact", fantasy;
+}
+
+footer a {
+  display: inline-block;
+  background-color: rgb(243, 145, 174);
+  width: 70px;
+  height: 30px;
+  margin: 7px;
+  font-size: 0.7rem;
+  font-family: "verdana", fantasy;
+  padding: 10px 20px;
+  position: relative;
+  top: 10%; /* Centraliza verticalmente */
+  left: 0%; /* Centraliza horizontalmente */
+  transform: translate(-7%, 50%);
+  color: white;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 3px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+footer a:hover {
+  text-decoration: underline; /* sublinhado ao passar o mouse */
 }/*# sourceMappingURL=style.css.map */
